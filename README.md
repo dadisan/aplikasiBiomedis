@@ -40,10 +40,8 @@ Login menggunakan `username` dan `password` sesuai dengan table `users` yang sud
 
 ```sql
 -- menambahkan/memasukan/insert/input users
-INSERT INTO
-    users (username, `password`)
-VALUES
-    ("admin", "1234"),
+INSERT INTO `admin` (`id`, `username`, `password`, `nama`,`foto`) VALUES
+   (1, 'admin', '1234', 'Gembrot', 'admin.png');
 ```
 
 | username | password |
