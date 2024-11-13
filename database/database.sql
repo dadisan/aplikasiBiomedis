@@ -16,7 +16,7 @@ CREATE TABLE `admin`(
 
 
    INSERT INTO `admin` (`id`, `username`, `password`, `nama`,`foto`) VALUES
-   (1, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'Gembrot', 'admin.png');
+   (1, 'admin', '1234', 'Gembrot', 'admin.png');
 
    -- Username = admin dan password = password--
 
